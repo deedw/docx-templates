@@ -2,6 +2,14 @@
 
 Template-based docx report creation for both Node and the browser. ([See the blog post](http://guigrpa.github.io/2017/01/01/word-docs-the-relay-way/)).
 
+This fork includes:
+
+* objectToString option
+* Fix for FOR loop $idx value being reset within IF command content
+* pre-built files to allow use of github repo in package.json
+* After updating source code, always re-run the build and commit the output.
+* If you update from upstream, repeat the build and commit process.
+
 
 ## Why?
 
