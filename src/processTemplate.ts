@@ -1017,7 +1017,7 @@ const processImage = (ctx: Context, imagePars: ImagePars) => {
 
   let imgRelId = imageToContext(ctx, getImageData(imagePars));
   const id = String(ctx.imageAndShapeIdIncrement);
-  const alt = imagePars.alt || 'desc';
+  const alt = imagePars.alt || '';
   const node = newNonTextNode;
 
   const extNodes = [];
